@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
 }
 
 
@@ -40,9 +40,10 @@ nav a:hover {
 
 /* Tabla de proyectos */
 table {
-    width: 100%;
+    width: 50%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 10px;
+    background-color: #ca1a87;
 }
 
 table, th, td {
@@ -56,4 +57,14 @@ th, td {
 
 th {
     background-color: #f2f2f2;
+}
+
+/* Estilos de los enlaces en el pie de página */
+footer a {
+    color: #ca1a87;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(255, 230, 0);
 }

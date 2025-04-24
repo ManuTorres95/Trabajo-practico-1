@@ -6,12 +6,16 @@ body {
 }
 
 
-/* Encabezados */
+
+
 h1, h2 {
     color: brown;
 }
 
-/* Navegación */
+
+
+
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -31,14 +35,23 @@ nav a:hover {
     color: rgb(255, 230, 0);
 }
 
-/* Imagen de perfil */
+
+
+
+
 .perfil-img {
     width: 150px;
     border-radius: 50%;
     margin-top: 20px;
 }
 
-/* Tabla de proyectos */
+
+
+
+
+
+
+
 table {
     width: 50%;
     border-collapse: collapse;
@@ -59,7 +72,8 @@ th {
     background-color: #f2f2f2;
 }
 
-/* Estilos de los enlaces en el pie de página */
+
+
 footer a {
     color: #ca1a87;
     text-decoration: none;
@@ -67,4 +81,24 @@ footer a {
 
 footer a:hover {
     color: rgb(255, 230, 0);
+}
+
+
+
+
+
+
+
+
+
+h1{
+    color: black
+}
+h2 {
+    color: grey;
+    font-size: 1.8em;
+}
+p{
+    color: black;
+    font-size: 1em;
 }

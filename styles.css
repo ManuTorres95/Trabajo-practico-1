@@ -10,3 +10,30 @@ body {
 h1, h2 {
     color: brown;
 }
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul a {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ca1a87;
+}
+
+nav a:hover {
+    color: rgb(255, 230, 0);
+}
+
+/* Imagen de perfil */
+.perfil-img {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
